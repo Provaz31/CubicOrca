@@ -1,0 +1,9 @@
+{
+  "name": "agora-rtc-sdk-ng",
+  "version": "4.24.9",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/AgoraIO/agora-rtc-web.git",
+    "type": "git"
+  }
+}

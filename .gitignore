@@ -1,0 +1,22 @@
+# Local accounts, printer state and development output
+private_profile_backup/
+state.json
+session.json
+credentials*
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.exe
+*.dll
+*.pfx
+*.p12
+*.key
+__pycache__/
+*.pyc
+.test/
+build*/
+upstream-source/
+.vs/
+.vscode/
