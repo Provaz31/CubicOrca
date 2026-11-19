@@ -48,3 +48,14 @@ Kontrola pred odoslaním číta všetky indexované súbory vrátane odstraňova
 riadkov patchu a hľadá JWT, privátne kľúče, známe formáty prístupových tokenov,
 prihlasovacie URL, citlivé názvy súborov a vybrané credential literály.
 Ide o cielenú kontrolu známych vzorov; nenahrádza revíziu zmien.
+
+## Hotový portable program
+
+Existujúci Dev16 je priložený v
+[Releases → Dev.16](https://github.com/Provaz31/CubicOrca/releases/tag/Dev.16).
+Archív `OrcaCubic_Cloud_Dev16_EN_CZ_portable.zip` má 230 947 309 bajtov
+a 18 664 položiek. Opakovaná kontrola CRC, hashov binárok a natívnych modulov
+prešla. Kontrola názvov súkromných/runtime súborov, JWT, privátnych PEM kľúčov
+a známych GitHub/AWS tokenových vzorov v obsahu archívu nenašla nález.
+SHA-256: `17cb5e29a775b5dd4bf2b21fc0daacc83e534eff914758c49007f59726a87298`.
+Táto kontrola nepridáva nové GUI ani živé overenie a nejde o novú kompiláciu.

@@ -3,6 +3,20 @@
 Natívna integrácia Anycubic Cloud pre OrcaCubic/OrcaSlicer, aktuálne Dev16,
 zameraná na Anycubic Kobra X. Rozhranie je anglické a české.
 
+## Hotový program pre Windows
+
+**[Stiahnuť aplikáciu Dev16 – otvor Releases → Assets](https://github.com/Provaz31/CubicOrca/releases/tag/Dev.16)**
+
+Vyber `OrcaCubic_Cloud_Dev16_EN_CZ_portable.zip` (približne 231 MB), rozbaľ
+**celý ZIP do nového priečinka** a spusti `orca-slicer.exe`. Potrebné DLL,
+Python a resources sú pribalené. Samotné EXE ani automatický `Source code (zip)`
+nestačia. Pred spustením zavri staršiu verziu. Balík neobsahuje používateľský
+účet; na inom počítači môže byť potrebné nové prihlásenie.
+
+Ide o existujúcu vývojovú zostavu Dev16, nie novú kompiláciu. GUI Dev16 a nové
+cloudové kalibrácie ešte čakajú na praktické overenie. SHA-256 archívu:
+`17cb5e29a775b5dd4bf2b21fc0daacc83e534eff914758c49007f59726a87298`.
+
 **Pre nového vývojára začni tu:** [Odovzdanie projektu](docs/ODOVZDANIE_PROJEKTU.md).
 Pôvod implementácie a vývoj verzií opisuje [história a zdroje](docs/HISTORIA_A_ZDROJE.md),
 prípravu pracoviska a overenie [zostavenie a testovanie](docs/ZOSTAVENIE_A_TESTOVANIE.md).
@@ -25,8 +39,8 @@ Cieľový priečinok ešte nesmie existovať. Skript overí patch, stiahne presn
 zdrojový základ, aplikuje zmeny a overí súčty 57 súborov. Pri zlyhaní ponechá
 pracovný priečinok na kontrolu. Aplikáciu ani tlačiareň nespúšťa.
 Na úplný Windows build treba navyše MSVC, Windows SDK, CMake, Ninja/gettext
-a závislosti OrcaCubicu. Pôvodné lokálne build cache a binárky nie sú súčasťou
-repozitára; nový build z GitHubu zatiaľ nebol vykonaný.
+a závislosti OrcaCubicu. Build cache nie je súčasťou repozitára; hotový portable
+balík sa poskytuje samostatne v Releases. Nový build z GitHubu zatiaľ nebol vykonaný.
 
 ## Offline testy
 

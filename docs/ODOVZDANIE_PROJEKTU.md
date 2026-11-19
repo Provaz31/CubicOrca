@@ -41,9 +41,14 @@ Zdrojový základ je výhradne commit
 Patch neaplikuj priamo na dnešnú vetvu main alebo na čistý oficiálny OrcaSlicer.
 Najprv obnov Dev16, až potom rieš samostatný upstream merge/rebase.
 
-Hotové EXE/DLL/ZIP, knižnice kompilátora, závislosti, build cache a používateľské
-účty nie sú v GitHube. Príjemca vie zo zdieľaného repozitára preskúmať vlastné
-zdroje a spustiť offline testy; úplné zostavenie vyžaduje ďalšie nástroje.
+Hotová aplikácia s EXE/DLL a runtime je samostatne v
+[Releases → Dev.16 → Assets](https://github.com/Provaz31/CubicOrca/releases/tag/Dev.16)
+ako `OrcaCubic_Cloud_Dev16_EN_CZ_portable.zip`. Rozbaľ celý archív do nového
+priečinka a spusti `orca-slicer.exe`. Ide o historický build Dev16, nie novú
+kompiláciu; hranice živého a GUI overenia platia aj pre tento balík.
+Knižnice kompilátora, build závislosti, build cache a používateľské účty nie sú
+na GitHube. Príjemca vie preskúmať vlastné zdroje, spustiť offline testy aj
+vyskúšať portable aplikáciu; úplné zostavenie vyžaduje ďalšie nástroje.
 
 ## 3. Ako je implementácia rozdelená
 
