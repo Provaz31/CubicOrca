@@ -3,6 +3,10 @@
 Natívna integrácia Anycubic Cloud pre OrcaCubic/OrcaSlicer, aktuálne Dev16,
 zameraná na Anycubic Kobra X. Rozhranie je anglické a české.
 
+**Pre nového vývojára začni tu:** [Odovzdanie projektu](docs/ODOVZDANIE_PROJEKTU.md).
+Pôvod implementácie a vývoj verzií opisuje [história a zdroje](docs/HISTORIA_A_ZDROJE.md),
+prípravu pracoviska a overenie [zostavenie a testovanie](docs/ZOSTAVENIE_A_TESTOVANIE.md).
+
 Repozitár obsahuje 57 zmenených alebo pridaných zdrojových súborov v `overlay/`
 a úplný kumulatívny patch. Celý slicer sa obnovuje nad presným upstream commitom;
 samotný priečinok `overlay/` nie je samostatný slicer ani inštalačný balík.

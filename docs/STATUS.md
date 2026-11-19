@@ -1,5 +1,9 @@
 # Stav Dev16 – 20. 11. 2026
 
+Pre odovzdanie novému vývojárovi čítaj [Odovzdanie projektu](ODOVZDANIE_PROJEKTU.md),
+[Históriu a zdroje](HISTORIA_A_ZDROJE.md) a
+[Zostavenie a testovanie](ZOSTAVENIE_A_TESTOVANIE.md).
+
 ## Integrácie v zdrojoch
 
 - Anycubic Cloud HTTPS: import prihlásenia, zoznam tlačiarní, nahrávanie G-code,
